@@ -5160,14 +5160,14 @@ int32 hwifi_set_dev_roam_report_enabled(struct cfg_struct *cfg, uint8 enabled)
     if(NULL == cfg)
     {
         HWIFI_WARNING("argument cfg is null.\n");
-        return -EFAIL;
+        return -EFAIL;
     }
 
     if(enabled != ROAM_DEVICE_SCAN_TRIGGER_REPORT_DISABLE &&
         enabled != ROAM_DEVICE_SCAN_TRIGGER_REPORT_ENABLE)
     {
         HWIFI_WARNING("argument enabled(%d) is not right.\n", enabled);
-        return -EFAIL;
+        return -EFAIL;
     }
 
     msg_size = sizeof(struct hwifi_msg_header) + sizeof(struct char_wid);

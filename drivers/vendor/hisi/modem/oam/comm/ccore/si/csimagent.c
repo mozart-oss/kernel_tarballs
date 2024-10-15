@@ -477,7 +477,7 @@ VOS_UINT32 CSIMA_SendTPDUOnLogicChan(CSIMA_CBP_CTPDU_MSG_STRU *pstCtpduMsg)
                                        sizeof(stRtpdu));
 
 
-        return ulResult;
+        return ulResult;
     }
 
     /* 通过通道号获取sessionID */
