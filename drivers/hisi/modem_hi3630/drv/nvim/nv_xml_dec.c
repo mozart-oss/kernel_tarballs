@@ -1281,7 +1281,7 @@ XML_RESULT_ENUM_UINT32 xml_decode_xml_file(FILE* pfile)
 
         lreaded = nv_file_read((u8*)(xml_ctrl.g_pclfilereadbuff),1,XML_FILE_READ_BUFF_SIZE,pfile);
         if(lreaded > XML_FILE_READ_BUFF_SIZE)
-        {
+        {
             xml_write_error_log(__LINE__, 0, XML_RESULT_FALIED_READ_FILE);
             return XML_RESULT_FALIED_READ_FILE;
         }

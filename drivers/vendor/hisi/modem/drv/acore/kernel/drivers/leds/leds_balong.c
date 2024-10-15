@@ -816,7 +816,7 @@ static int __devexit balong_led_remove(struct platform_device *pdev)
 
     for(i = 0; i < (int)(ARRAY_SIZE(balong_led)); i++)
     {
-        if(!led[i].pdata)
+        if(!led[i].pdata)
         {
             continue;
         }

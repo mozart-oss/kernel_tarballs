@@ -932,7 +932,7 @@ void reset_only_for_test_hifi(int iparam)
         break;
     case 18:
         break;
-    default:
+    default:
         break;
     }
 #endif

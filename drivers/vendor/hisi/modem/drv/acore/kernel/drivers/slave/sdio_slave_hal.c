@@ -264,13 +264,13 @@ BSP_S32 SLAVE_IOEnumCfg(BSP_VOID)
 }
 
 /* MEM设备上电枚举过程 暂不实现 */
-BSP_S32 SLAVE_MEM_EnumCfg(BSP_VOID)
+BSP_S32 SLAVE_MEM_EnumCfg(BSP_VOID)
 {
     return BSP_OK;
 }
 
 /* IO&MEM设备上电枚举过程 暂不实现 */
-BSP_S32 SLAVE_IOMEM_EnumCfg(BSP_VOID)
+BSP_S32 SLAVE_IOMEM_EnumCfg(BSP_VOID)
 {
     return BSP_OK;
 }

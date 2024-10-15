@@ -24,7 +24,7 @@ s32 pcie_dma_wr_engine_enable(u32 position)
 
 s32 pcie_dma_wr_engine_disable(u32 position)
 {
-    return pcie_cfg_reg_write(position,DMA_WR_ENGINE_ENABLE,0);
+    return pcie_cfg_reg_write(position,DMA_WR_ENGINE_ENABLE,0);
 }
 
 s32 pcie_dma_wr_chn_start(u32 position,u32 chnid)
@@ -65,7 +65,7 @@ s32 pcie_dma_rd_engine_enable(u32 position)
 
 s32 pcie_dma_rd_engine_disable(u32 position)
 {
-    return pcie_cfg_reg_write(position,DMA_RD_ENGINE_ENABLE,0);
+    return pcie_cfg_reg_write(position,DMA_RD_ENGINE_ENABLE,0);
 }
 
 s32 pcie_dma_rd_chn_start(u32 position,u32 chnid)
